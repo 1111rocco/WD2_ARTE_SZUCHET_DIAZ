@@ -116,8 +116,6 @@ nav a:hover {
   line-height: 1.6;
 }
 
-/* ===================== SEEDS ===================== */
-
 .seeds {
   padding: 50px 40px;
 }
@@ -131,7 +129,6 @@ nav a:hover {
   color: #f0c419;
 }
 
-/* grid: acomoda las tarjetas automáticamente en columnas de 280px como mínimo */
 .seeds-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -145,11 +142,18 @@ nav a:hover {
   border: 4px solid #4a4a42;
   display: flex;
   flex-direction: column;
+
 }
 
 .seed-card img {
-  height: 170px;
+  
   border-bottom: 4px solid #4a4a42;
+  
+  width: 95%;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 .seed-info {
