@@ -39,9 +39,10 @@ header {
   background-color: #2c2823;
   border-bottom: 4px solid #4a4a42;
    background-image: url(tierra.jpeg);
-  background-repeat: repeat; 
+  background-repeat: repeat;
   background-size: 64px 64px
 }
+
 
 header img {
   width: 40px;
@@ -49,25 +50,38 @@ header img {
   border: 3px solid #4a4a42;
 }
 
+
 nav ul {
   display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  list-style: none;
- 
+  gap: 8px;
+list-style: none;
+
+
 }
+
 
 nav a {
-  color: #e8f0d8;
+  display: inline-block;
+  color: #ffffff;
   text-decoration: none;
-  font-size: 15px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 12px;
+  padding: 14px 18px;
+  background-color: #9b9b9b;
+  border: 3px solid #141210;
+  box-shadow:
+     inset 3px 3px 0 #d4d4d4,
+    inset -3px -3px 0 #545454;
 }
+
 
 nav a:hover {
-  color: #f0c419;
+  background-color: #a8a8a8;
 }
 
-.boton {
+
+
+.botonSecundario {
   font-family: 'Press Start 2P', monospace;
   font-size: 13px;
   color: #e8f0d8;
@@ -81,11 +95,11 @@ nav a:hover {
   color: #211e1c;
 }
 
-.boton-secondary {
+.botonSecundario {
   background-color: #5b8731;
 }
 
-.boton:hover {
+.botonSecundario:hover {
   background-color: #7a7a6e;
 }
 
@@ -95,13 +109,13 @@ nav a:hover {
   border-top: 4px solid #4a2f18;
   border-bottom: 4px solid #4a2f18;
 }
-.hero {
+.banner {
   padding: 80px 40px;
   text-align: center;
   background-color: #3f6b2e;
 }
 
-.hero-content {
+.banner-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,7 +124,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.hero h1 {
+.banner h1 {
   font-family: 'Press Start 2P', monospace;
   font-size: 24px;
   line-height: 1.6;
@@ -137,7 +151,7 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.seed-card {
+.seed {
   background-color: #2c2823;
   border: 4px solid #4a4a42;
   display: flex;
@@ -145,7 +159,7 @@ nav a:hover {
 
 }
 
-.seed-card img {
+.seed img {
   
   border-bottom: 4px solid #4a4a42;
   
@@ -156,22 +170,22 @@ nav a:hover {
   align-items: center;
 }
 
-.seed-info {
+.infoSeed {
   padding: 20px;
 }
 
-.seed-info h3 {
+.infoSeed h3 {
   font-family: 'Press Start 2P', monospace;
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-.seed-info p {
+.infoSeed p {
   color: #c9d4bb;
   font-size: 15px;
 }
 
-.seed-card .boton {
+.seed .boton {
   margin: 0 20px 20px 20px;
 }
 

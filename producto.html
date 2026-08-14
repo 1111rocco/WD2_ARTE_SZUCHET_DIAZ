@@ -6,34 +6,73 @@
     <title>SEEDGENERATOR</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="logo">
-        <nav>
-            <li>
-                <p>Inicio</p>
-            </li>
-            <li>
-                <p>Pre-Armados</p>
-            </li>
-            <li>
-                <p>Iniciar Sesión</p>
-            </li>
-            <li>
-                <p>Contacto</p>
-            </li>
-        </nav>
-    </header>
+  <header>
+    <img src="imagenes/cofre.jpg" alt="logo">
+    <nav>
+      <ul>
+        <li><a href="#" >Inicio</a></li>
+        <li><a href="producto.html">Personalizado</a></li>
+        <li><a href="login.html">Iniciar Sesión</a></li>
+        <li><a href="FAQ.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
 
     <main>
-        <h1>PRODUCTO</h1>
-        <section>
-            <img src="" alt="">
-            <p></p>
-            <button>COMPRAR</button>
-        </section>
+
         
-    
-    
+
+        <section class="bannerProducto">
+            <h1>GENERÁ TUS PROPIAS SEEDS PERSONALIZADAS COMO A VOS MÁS TE GUSTE</h1>
+        </section>
+
+        <section class="formularioProducto">
+            <form>
+                <label for="bioma">Bioma de spawn:</label>
+                <select class="opcionesProducto">
+                    <option>Bosque</option>
+                    <option>Desierto</option>
+                    <option>Jungla</option>
+                    <option>Pantano</option>
+                    <option>Sabana</option>
+                    <option>Tundra</option>
+                    <option>Taiga</option>
+                    <option>Montaña</option>
+                    <option>Océano</option>
+                    <option>Mesa</option>
+                    <option>Llanura</option>
+                </select>
+
+                <label for="distanciaEnd">Distancia al portal al End:</label>
+                <select class="opcionesProducto">
+                    <option>0-100 bloques</option>
+                    <option>100-500 bloques</option>
+                    <option>500-1000 bloques</option>
+                    <option>1000-2000 bloques</option>
+                    <option>2000-5000 bloques</option>
+                    <option>5000+ bloques</option>
+                </select>
+
+                <label for="spawnAldea">Spawn en aldea:</label>
+                <select class="opcionesProducto">
+                    <option>Sí</option>
+                    <option>No</option>
+                </select>
+
+                <label for="distanciaAncient">Distancia al Ancient City:</label>
+                <select class="opcionesProducto">
+                    <option>0-100 bloques</option>
+                    <option>100-500 bloques</option>
+                    <option>500-1000 bloques</option>
+                    <option>1000-2000 bloques</option>
+                    <option>2000-5000 bloques</option>
+                    <option>5000+ bloques</option>
+                </select>
+
+                <button type="submit" class="botonSecundario">GENERAR MI SEED PERSONALIZADA</button>
+            </form>
+        </section>
+
     </main>
 
     <footer>
